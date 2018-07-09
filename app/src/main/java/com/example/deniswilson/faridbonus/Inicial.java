@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -16,6 +17,7 @@ public class Inicial extends AppCompatActivity implements AdapterView.OnItemSele
 
     Spinner spnSupermercados;
     TextView txtSelecionar;
+    /*Button btnAcessar;*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +26,9 @@ public class Inicial extends AppCompatActivity implements AdapterView.OnItemSele
 
         spnSupermercados = (Spinner) findViewById(R.id.spn_loja);
         txtSelecionar = (TextView) findViewById(R.id.txtSelecionar);
+        /*btnAcessar = (Button) findViewById(R.id.btnAcessar);*/
+
+
 
         ArrayAdapter<CharSequence> adpLojas = ArrayAdapter.createFromResource(this, R.array.Lojas, android.R.layout.simple_spinner_dropdown_item);
         adpLojas.setDropDownViewResource(R.layout.spinner_customizado);

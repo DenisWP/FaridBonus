@@ -10,14 +10,30 @@
         android:id="@+id/spn_loja"
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="245dp" />
+        android:layout_marginTop="351dp" />
 
     <TextView
         android:id="@+id/txtSelecionar"
         android:layout_width="500dp"
         android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="141dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginTop="234dp"
+        android:gravity="center"
         android:text="@string/txtSelecionar" />
+
+    <Button
+        android:id="@+id/btnAcessar"
+        android:layout_width="500dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/txtSelecionar"
+        android:layout_marginBottom="306dp"
+        android:gravity="center"
+        android:text="@string/btnAcessar" />
+
+
 </RelativeLayout>

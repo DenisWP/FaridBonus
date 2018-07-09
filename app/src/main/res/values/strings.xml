@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">FaridBonus</string>
     <string name="txtSelecionar">SELECIONE A LOJA: </string>
+    <string name="btnAcessar">ACESSAR</string>
 
 
     <array name="Lojas">
