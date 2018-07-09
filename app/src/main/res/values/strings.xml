@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FaridBonus</string>
+    <string name="txtSelecionar">SELECIONE A LOJA: </string>
+
+
+    <array name="Lojas">
+        <item>Clique aqui para selecionar</item>
+        <item>Supermercado Matriz</item>
+        <item>Supermercado Filial</item>
+        <item>Supermercado Beira Rio</item>
+        <item>Supermercado Cachoeira do Campo</item>
+        <item>Supermercado Ouro Preto</item>
+        <item>Magazine Itabirito</item>
+        <item>Magazine Ouro Preto</item>
+        <item>Material de Construção</item>
+    </array>
+
+
+</resources>
